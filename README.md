@@ -1,2 +1,2 @@
 # Health-for-all
-## Our solution to a real world problem. aour client which is the Health for all organization is looking to increase their reach to a community of underserved.  
+## Our solution to a real world problem. Our client which is the Health for all partnership is looking to bridge the gap between health care and social services for clients 
