@@ -1,0 +1,147 @@
+.social{
+    display:grid;
+    grid-template-columns: repeat(4,50px);
+    grid-gap:10px;
+    justify-content:flex-start;
+    align-items: center;
+    
+    }
+
+.social a{
+    background-color:black;
+    width:36px;
+    height:36px;
+    
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.social a i{
+    color:white;
+    }
+
+/*Button header */
+.grey-button {
+    border-radius:5px; 
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.grey-button:hover {
+  background-color: darkgrey; /* Change the background color on hover */
+}
+
+.white-button {
+    border-radius:5px; 
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.white-button:hover {
+  background-color: lightgrey;
+  color: darkgrey;
+  border-color: darkgrey;
+}
+
+
+/*Hero Container */
+.hero-container {
+  position: relative;
+  background-image: url('./pic1.webp'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-color: grey;
+  color: white;
+  padding: 100px 20px;
+  text-align: left;
+}
+
+.hero-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: white;
+  color: grey;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: lightgrey;
+  color: darkgrey;
+}
+
+
+/*How it workds */
+.how-it-works-container {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .how-it-works-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    background-color: white;
+    padding: 5px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 760px) {
+    .card {
+      flex: 1 1 calc(100% - 40px);
+      max-width: none;
+    }
+  }
+  
