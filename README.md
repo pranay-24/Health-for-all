@@ -1,0 +1,2 @@
+# Health-for-all
+### Our solution to a real world problem. Our client which is the Health for all partnership is looking to bridge the gap between health care and social services for vulnerable clients. Through the development of a nursing student-led, faculty-supervised health clinics at each site , they are focusing on providing primary health care, mental health support, health education, and advocacy; adapted to meet the community needs of each partner site. 
