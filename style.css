@@ -243,6 +243,52 @@
     font-size: 16px;
 }
 
+/*Blog section */
+.blog-container{
+display:flex;
+flex-wrap: row wrap;;
+}
+.card_blog {
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 20px;
+  }
+
+  .card_blog img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .date {
+    color: #888888;
+    margin-top: 8px;
+  }
+
+  .heading_blog {
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+
+  .read-more {
+    color: #333333;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+  }
+
+  .read-more-arrow {
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+  }
+  
+  
 @media (max-width: 760px) {
     .card {
         flex: 1 1 calc(100% - 40px);
