@@ -251,6 +251,28 @@
     font-size: 16px;
 }
 
+#partners{
+padding:20px;
+margin:40px 0;
+
+}
+
+#partners h2{
+    margin:20px;
+    
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+#partners .col {
+    flex:1 1 0;
+    text-align: center;
+}
+#partners h3{
+font-size:1em;
+margin-top:10px;
+}
 /*Blog section */
 .content-wrapper {
     max-width:1300px;
@@ -267,7 +289,7 @@ background-color:var(--blog-background);
     flex-flow:row wrap;
     gap:20px;
   }
-  
+
 .blog-container{
 display:flex;
 flex-wrap: row wrap;
